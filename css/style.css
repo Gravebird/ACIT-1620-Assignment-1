@@ -1,6 +1,14 @@
 
+body {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-template-rows: 10% 70% 20%;
+}
+
 header {
     background-color: #967E7F;
+    grid-row: 1 / 2;
+    grid-column: 1 / 4;
 }
 
 aside {
