@@ -1,12 +1,32 @@
 
+header {
+    background-color: #967E7F;
+}
+
+aside {
+    background-color: #C0C0C0;
+}
+
+content {
+    background-color: #ECE8E8;
+}
+
+footer {
+    background-color: #DEBCB9;
+}
+
+button {
+    color: white;
+}
+
 .greenbutton {
-    background-color: lightgreen;
+    background-color: #5F987D;
 }
 
 .greybutton {
-    background-color: darkgray;
+    background-color: #696969;
 }
 
 .redbutton {
-    background-color: red;
+    background-color: #D23C22;
 }
