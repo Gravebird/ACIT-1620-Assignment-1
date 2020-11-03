@@ -41,6 +41,17 @@ footer {
 
 #input-area {
     display: flex;
+    flex-direction: column;
+}
+
+#top-buttons {
+    display: flex;
+    flex-direction: row;
+}
+
+#bottom-buttons {
+    display: flex;
+    flex-direction: row;
 }
 
 button {
@@ -48,6 +59,12 @@ button {
     border: none;
     margin: 20px;
     padding: 10px;
+    border-radius: 12px;
+}
+
+input {
+    border: none;
+    border-radius: 12px;
 }
 
 #newnote-button {
