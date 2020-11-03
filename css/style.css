@@ -6,6 +6,7 @@ body {
     height: 95%;
     width: 95%;
     position: absolute;
+    font-family: Arial, sans-serif;
 }
 
 header {
@@ -38,19 +39,30 @@ footer {
     text-align: center;
 }
 
-button {
-    color: white;
+#input-area {
+    display: flex;
 }
 
-.greenbutton {
+button {
+    color: white;
+    border: none;
+    margin: 20px;
+    padding: 10px;
+}
+
+#newnote-button {
     background-color: #5F987D;
 }
 
-.greybutton {
+#darktheme-button {
     background-color: #696969;
 }
 
-.redbutton {
+#save-button {
+    background-color: #5F987D;
+}
+
+#cancel-button {
     background-color: #D23C22;
 }
 
