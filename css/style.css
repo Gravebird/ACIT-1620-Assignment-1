@@ -54,10 +54,14 @@ footer {
     flex-direction: row;
 }
 
+#text-box {
+    text-align: center;
+}
+
 button {
     color: white;
     border: none;
-    margin: 20px;
+    margin: 3%;
     padding: 10px;
     border-radius: 12px;
 }
@@ -65,14 +69,21 @@ button {
 input {
     border: none;
     border-radius: 12px;
+    height: 85%;
+    width: 85%;
+    
 }
 
 #newnote-button {
     background-color: #5F987D;
+    position: relative;
+    left: 0;
 }
 
 #darktheme-button {
     background-color: #696969;
+    position: relative;
+    right: 0;
 }
 
 #save-button {
